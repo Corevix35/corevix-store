@@ -12,10 +12,22 @@
       background: #f5f5f5;
     }
     header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
       background: #111;
-      color: #fff;
+      color: white;
       padding: 1rem;
-      text-align: center;
+    }
+    header img {
+      height: 60px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    header p {
+      margin: 0;
+      font-size: 0.9rem;
     }
     .products {
       display: grid;
@@ -64,8 +76,11 @@
 </head>
 <body>
   <header>
-    <h1>Corevix</h1>
-    <p>Your future store – contact us to order</p>
+    <img src="logo.png" alt="Corevix Logo" />
+    <div>
+      <h1>Corevix</h1>
+      <p>Your future store – contact us to order</p>
+    </div>
   </header>
 
   <section class="products">
